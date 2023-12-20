@@ -63,22 +63,14 @@ cd [project-directory]
 
 ### How to Run Your Application on a Server
 
-##### Prerequisites
-- A GitHub, GitLab, or Bitbucket account, as Vercel integrates directly with these services.
+For local development and testing:
 
-##### Steps
-
-1. Deploying Your Application with Vercel
-2. Install Git on your local machine to manage your project versioning.
-3. Sign up for a Vercel account.
-4. Deploy the project from Git repository
-6. Go to the Vercel Dashboard.
-7. Click on the "New Project" button.
-8. Select the Git provider where you pushed your project (GitHub, GitLab, Bitbucket).
-9. Authorize Vercel to access your account if prompted.
-10. Select the repository you want to deploy.
-11. Configure Your Project
-
+1. Ensure Node.js is installed on your local machine.
+2. Navigate to your project's root directory in the terminal.
+3. If you haven't already, install the required Node.js dependencies with "npm install"
+4. Run the server using Node.js with "node server.js"
+5. The server will start on http://localhost:4000. Open this URL in a web browser to access your application.
+   
 #### API Integration
 
 - **Adzuna API**: Used for fetching job listings and historical salary data.
